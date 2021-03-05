@@ -46,15 +46,4 @@ footer{
     height: 5vh;
     width: 95vh;
     display: flex;
-}
-#link1{
-    display: inline-block;
-}
-#link2{
-    float: right;
-    padding-left: 40px;
-    padding-right: 5px;
-}
-h2 p{
-    flex-basis: 50%;
-}
+}   
