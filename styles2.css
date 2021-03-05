@@ -6,27 +6,28 @@
 }
 .container{
     background-color: #2F303A;
-    height: 70vh;
-    width:105vh;
+    height: 77vh;
+    width: 129vh;
+    margin-top: 50px;
+    margin-left: 200px;
 }   
 #logo{
-    padding-left: 20px;
-    padding-top: 0px;
+    margin-top: 20px;
+    margin-left: ;
 }
 .horizonbar{
-    float: right;
-    padding-left: 180px;
-    padding-right: 40px;
     list-style-type: none;
     padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: small;
+    font-size: small;
+    margin-left: 400px;
+    margin-top: 20px;
 }
 .navbar{
     display: flex;
-    margin-left: 40px;
-    margin-right: 30px;
-    margin-top: 40px;
-    padding-top: 20px;
-    
+    margin-left: 50px;
+    margin-right: 50px;
 }
 ul li{
     display: inline-block;
@@ -42,19 +43,93 @@ li a:hover:not(.active){
     border-bottom: solid 3px royalblue;
 }   
 footer{
-    background-color: slategray;
-    height: 5vh;
-    width: 95vh;
+    background-color: #202027;
+    height: 7vh;
+    width: 129vh;
     display: flex;
+    margin-left: 200px;
+    font-family: normal;
+    font-weight: small;
 }
+.features{
+    display: flex;
+    padding-right: 10px;
+}
+#feature1{
+    float: left;
+    background-color: #202027;
+    height: 12vh;
+    width: 10vh;
+    text-align: center;
+    padding-right: 5px;
+}
+#feature2{
+    float: left;
+    background-color: #202027;
+    height: 12vh;
+    width: 10vh;
+    text-align: center;
+    padding-left: 5px;
+}
+#feature3{
+    float: left;
+    background-color: #202027;
+    height: 12vh;
+    width: 10vh;
+    text-align: center;
+    padding-right: 5px;
+}
+.text2{
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-right: 10px;
+}   
+.text3{
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-right: 10px;
+}   
+.content{
+    margin-top: 100px;
+    margin-left: 70px;
+}   
 #link1{
     display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 30px;
 }
 #link2{
     float: right;
-    padding-left: 40px;
+    padding-left: 320px;
     padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
-h2 p{
-    flex-basis: 50%;
+h1 {
+    color: white;
+    line-height: 70px;
+    size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+p{
+    padding-top: 8px;
+    color: #ffffff;
+    size: 36px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 24px;
+}
+.flex-containerimages{
+    float: right;
+    text-align: center;
+    margin-bottom: 00px;
+
 }

@@ -9,6 +9,7 @@
     height: 77vh;
     width: 129vh;
     margin-left: 200px;
+    position: relative;
 }   
 #logo{
     padding-left: 20px;
@@ -83,5 +84,5 @@ p{
     margin-right: 330px;
     text-align: right;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
