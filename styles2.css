@@ -2,27 +2,24 @@
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 .container{
     background-color: #2F303A;
-    height: 77vh;
-    width: 129vh;
-    margin-top: 50px;
-    margin-left: 200px;
+    height: 100vh;
 }   
 #logo{
     margin-top: 20px;
-    margin-left: ;
 }
 .horizonbar{
     list-style-type: none;
     padding-bottom: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: small;
+    font-weight: bolder;
     font-size: small;
-    margin-left: 400px;
+    margin-left: 550px;
     margin-top: 20px;
+    padding-left: 390px;
+    float: right;
 }
 .navbar{
     display: flex;
@@ -40,96 +37,97 @@ ul li a{
     transition: 0.6s ease;
 }
 li a:hover:not(.active){
-    border-bottom: solid 3px royalblue;
+    border-bottom: solid 3px #1762A7;
 }   
 footer{
     background-color: #202027;
-    height: 7vh;
-    width: 129vh;
+    height: 9vh;
+    width: 300vh;
     display: flex;
-    margin-left: 200px;
-    font-family: normal;
-    font-weight: small;
 }
 .features{
     display: flex;
-    padding-right: 10px;
+    margin-top: 40px;
 }
 #feature1{
     float: left;
-    background-color: #202027;
-    height: 12vh;
-    width: 10vh;
     text-align: center;
-    padding-right: 5px;
 }
 #feature2{
     float: left;
-    background-color: #202027;
-    height: 12vh;
-    width: 10vh;
     text-align: center;
-    padding-left: 5px;
 }
 #feature3{
     float: left;
-    background-color: #202027;
-    height: 12vh;
-    width: 10vh;
     text-align: center;
-    padding-right: 5px;
 }
 .text2{
     text-align: center;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
+    padding-top: px;
     padding-right: 10px;
+    padding-left: 30px;
 }   
 .text3{
     text-align: center;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
+    padding-top: px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.text1{
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: px;
+    padding-left: 0px;
     padding-right: 10px;
 }   
 .content{
-    margin-top: 100px;
-    margin-left: 70px;
-}   
+    margin-left: 40px;
+}
 #link1{
     display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom:px;
     padding-left: 30px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #link2{
     float: right;
-    padding-left: 320px;
+    padding-left: 700px;
     padding-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    margin-left: 210px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     color: white;
     line-height: 70px;
     size: 72px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     text-align: left;
+    padding-bottom: 10px;
+    margin-top: 70px;
 }
 p{
     padding-top: 8px;
     color: #ffffff;
-    size: 36px;
-    font-weight: 100;
+    size: 46px;
+    font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     line-height: 24px;
+    padding-top: 40px;
+    margin-top: 70px;
 }
 .flex-containerimages{
     float: right;
     text-align: center;
     margin-bottom: 00px;
-
 }
