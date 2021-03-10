@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     background-color: #2F303A;
-    height: 98.9vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }   
 #logo {
     padding-left: 10px;
@@ -50,7 +50,7 @@ ul li a{
     transition: 0.6s ease;
 }
 li a:hover:not(.active){
-    border-bottom: solid 3px royalblue;
+    border-bottom: solid 5px #1762A7;
 }
 h1{
     text-align: right;
@@ -64,9 +64,8 @@ h1{
     size: 100px;
 }
 .bgpics{
-    height: 500px;
+    height: 537px;
     width: 300px;
-    margin-top: px;
     margin-left: 150px;
     margin-right: 20px;
 }
